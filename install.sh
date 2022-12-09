@@ -26,6 +26,7 @@ cp .Xresources "/home/$username"
 cp .Xnord "/home/$username"
 cp -R dotconfig/* "/home/$username/.config/"
 cp background.jpg "/home/$username/Pictures/"
+xrdb -merge "/home/$username/.Xresources"
 chown -R "$username:$username" "/home/$username"
 
 # Installing sugar-candy dependencies
