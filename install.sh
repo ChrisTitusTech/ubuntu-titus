@@ -25,7 +25,7 @@ mkdir -p /usr/share/sddm/themes
 cp .Xresources "/home/$username"
 cp .Xnord "/home/$username"
 cp -R dotconfig/* "/home/$username/.config/"
-cp bg.jpg "/home/$username/Pictures/"
+cp background.jpg "/home/$username/Pictures/"
 chown -R "$username:$username" "/home/$username"
 
 # Installing sugar-candy dependencies
